@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lolcowy",
+  "version": "${version}",
+  "name": "lolcowy",
+  "description": "Client-side performance controls and visual utilities. Experimental starter build for Minecraft 26.2.",
+  "authors": ["lolcowy"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.lolcowy.client.LolcowyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25"
+  }
+}
